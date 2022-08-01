@@ -13,4 +13,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: install deps
-      run: yarn install
+      run: yarn install --no-lockfile
